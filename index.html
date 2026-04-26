@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="bio">
+  <div class="bio-photo">
+    <!-- Uncomment and update once you have a photo:
+    <img src="assets/images/profile.jpg" alt="Nicholas Wright"> -->
+  </div>
+  <div class="bio-text">
+    <h1>nicholasAWwright</h1>
+    <p class="bio-tagline"><!-- Add a short tagline or title here --></p>
+    <p><!-- Add your bio here --></p>
+    <div class="bio-links">
+      <a href="https://github.com/nicholasAWwright" target="_blank" class="btn">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<h2>Projects</h2>
+
+<div class="projects-grid">
+  {% for project in site.data.projects %}
+    {% include project-card.html project=project %}
+  {% endfor %}
+</div>

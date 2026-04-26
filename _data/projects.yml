@@ -1,0 +1,27 @@
+# Add your projects here. Each entry becomes a card on the portfolio page.
+#
+# Required fields:
+#   title       — project name
+#   description — short summary shown on the card
+#
+# Optional fields:
+#   image       — path to thumbnail, e.g. assets/images/project1.jpg
+#   links       — list of { label, url } buttons shown on the card
+#                 label can be anything: GitHub, PDF, Video, Live Demo, etc.
+#                 url can be a local asset path or an external URL
+
+- title: "Example Coding Project"
+  description: "A short description of what this project does and why it matters."
+  image: "assets/images/placeholder.png"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/nicholasAWwright/repo-name"
+
+- title: "Example Non-Coding Project"
+  description: "A short description of this project — artwork, writing, design, etc."
+  image: "assets/images/placeholder.png"
+  links:
+    - label: "PDF"
+      url: "assets/pdfs/project.pdf"
+    - label: "Video"
+      url: "https://youtube.com/watch?v=example"
